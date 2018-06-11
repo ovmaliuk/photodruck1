@@ -1,0 +1,2 @@
+SELECT articles.*, model_param.*
+FROM model_param INNER JOIN articles ON model_param.id_param = articles.id_param;
